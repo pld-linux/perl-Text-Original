@@ -5,8 +5,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Text
 %define	pnam	Original
-Summary:	Text::Original - Find original, non-quoted text in a message
-#Summary(pl):	
+Summary:	Text::Original - find original, non-quoted text in a message
+Summary(pl):	Text::Original - znajdowanie oryginalnego, niecytowanego tekstu komunikatu
 Name:		perl-Text-Original
 Version:	1.4
 Release:	1
@@ -21,10 +21,11 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Text::Original - Find original, non-quoted text in a message.
+Text::Original finds original, non-quoted text in a message.
 
-# %description -l pl
-# TODO
+%description -l pl
+Text::Original s³u¿y do znajdowania oryginalnego, niecytowanego tekstu
+komunikatu.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
