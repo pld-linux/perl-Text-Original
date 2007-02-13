@@ -6,7 +6,7 @@
 %define	pdir	Text
 %define	pnam	Original
 Summary:	Text::Original - find original, non-quoted text in a message
-Summary(pl.UTF-8):   Text::Original - znajdowanie oryginalnego, niecytowanego tekstu komunikatu
+Summary(pl.UTF-8):	Text::Original - znajdowanie oryginalnego, niecytowanego tekstu komunikatu
 Name:		perl-Text-Original
 Version:	1.4
 Release:	1
