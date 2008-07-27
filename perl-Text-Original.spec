@@ -9,7 +9,7 @@ Summary:	Text::Original - find original, non-quoted text in a message
 Summary(pl.UTF-8):	Text::Original - znajdowanie oryginalnego, niecytowanego tekstu komunikatu
 Name:		perl-Text-Original
 Version:	1.4
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
