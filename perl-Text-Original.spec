@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests		# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define	pdir	Text
 %define	pnam	Original
+%include	/usr/lib/rpm/macros.perl
 Summary:	Text::Original - find original, non-quoted text in a message
 Summary(pl.UTF-8):	Text::Original - znajdowanie oryginalnego, niecytowanego tekstu komunikatu
 Name:		perl-Text-Original
@@ -15,6 +15,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	4e2b056372dc9939a9517051aaa492e4
+URL:		http://search.cpan.org/dist/Text-Original/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
