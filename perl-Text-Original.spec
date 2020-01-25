@@ -4,7 +4,6 @@
 
 %define	pdir	Text
 %define	pnam	Original
-%include	/usr/lib/rpm/macros.perl
 Summary:	Text::Original - find original, non-quoted text in a message
 Summary(pl.UTF-8):	Text::Original - znajdowanie oryginalnego, niecytowanego tekstu komunikatu
 Name:		perl-Text-Original
